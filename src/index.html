@@ -8,9 +8,41 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Nutrition</h1>
-	<canvas id="myChart" width="600" height="300"></canvas>
-	<script type="module" src="app.js"></script>
-
+	<main>
+	<form id="formField">
+		<div class="container">
+			<h1>Nutrition</h1>
+			<div class="selectBox">
+				<label for="foods">Food name</label>
+				<select id="foods">
+					<option value="pizza">pizza</option>
+					<option value="burger">burger</option>
+					<option value="frenchfries">frenchfries</option>
+					<option value="choclatecake">choclatecake</option>
+					<option value="egg">egg</option>
+					<option value="bread">bread</option>
+				</select>
+			</div>
+			<div class="macros">
+				<label for="carb">Carb</label>
+				<input type="number" id="carb"  min="1" max="100" required>
+				<label for="prot">Protein</label>
+				<input type="number" id="prot" min="1" max="100" required>
+				<label for="fat">Fat</label>
+				<input type="number" id="fat" min="1" max="100" required>
+			</div>
+			<input  type="submit" id="submit-button" value="Enter food">
+			<input  type="submit" id="add" value="Add food">
+        </div>
+	</form>
+	</div>
+	<div id="chart">
+		<canvas id="myChart"></canvas>
+	</div>
+	<div id="box-container">
+		<p id="log">Log</p>
+	</div>
+  </main>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
