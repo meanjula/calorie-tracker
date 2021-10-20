@@ -16,7 +16,7 @@ FetchWrapper class is used to get base url and api endpoint.
 Open source Api (firebase) is used to post and fetch data.
 User input such as(food name, carbohydrate value, protein value, fat value) is saved
 to firebase Api.
-Using snackbar for handling notification.
+snackbar is used for notifying update 0f food data to food Api.
 Chart constructed using chart.js with user input data.
 Individual food item is displayed using DOM and event handlers.
 Css is applied for styling the app.
