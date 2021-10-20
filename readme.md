@@ -13,12 +13,12 @@
 Calorie counting app created from scratch using html, css and javaScript.
 parcel used as a module bundlers.
 FetchWrapper class is used to get base url and api endpoint.
-Food Api is hosted in firebase account.
+Open source Api (firebase) is used to post and fetch data.
 User input such as(food name, carbohydrate value, protein value, fat value) is saved
-to Food Api.
+to firebase Api.
 Using snackbar for handling notification.
 Chart constructed using chart.js with user input data.
-Individual food item is displayed using DOM and event handler.
+Individual food item is displayed using DOM and event handlers.
 Css is applied for styling the app.
 
 ## Technology
@@ -31,7 +31,7 @@ Project is created with:
 
 ## Setup
 
-To run this project, install parcel locally using npm:
+To create this project, install parcel locally using npm:
 
 ```
 $ cd project directory
