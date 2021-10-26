@@ -32,14 +32,14 @@ document.getElementById('formField').addEventListener('submit',(e)=>{
 			protein:{integerValue:protein.value},
 			fat:{integerValue:fat.value}
 		}}
-	/*	Api.post('anjula678',body).then(data =>{
+		Api.post('anjula678',body).then(data =>{
             console.log(data)
             if(data.error){
                 return snackbar.show("Some data is missing")
              
             }
             else{ snackbar.show('Food added successfully')}
-        });*/
+        });
 
        
 	})

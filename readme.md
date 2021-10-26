@@ -29,6 +29,10 @@ Project is created with:
 - parcel:2.0.0-rc.0
 - snackbar:1.1.0
 
+## Screenshot
+
+![calorie tracker screenshot](./calorieTracker.png)
+
 ## Setup
 
 To run this project, install parcel locally using npm:
